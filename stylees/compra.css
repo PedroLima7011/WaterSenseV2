@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+}
+
+/*TÓPICOS DO CABEÇALHO*/
+.logo img {
+  width: 25%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 60px;
+  height: 150px;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.navbar {
+  font-size: 28px;
+  position: absolute;
+  right: 5%;
+  background-color: #002d3d;
+  padding: 14px 50px;
+  border-radius: 20px;
+}
+
+.partes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.partes img {
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.parte {
+  background-color: #002d3d;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 300px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.parte:hover {
+  transform: translateY(-10px);
+}
+
+.parte p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.parte button {
+  background: linear-gradient(45deg, #00d4ff, #0077ff);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.parte button:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.compra {
+  padding: 60px 20px;
+  background-color: #003845;
+}
+.compra h2 {
+  font-size: 32px;
+  background-color: #03313b;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 0 auto 40px auto;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  background-color: #002d3d;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 300px;
+  margin-top: 30px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.item:hover {
+  transform: translateY(-15px);
+  border: solid 1px aqua;
+}
+
+.item p {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.item .info {
+  margin-top: 10px;
+  font-weight: bold;
+}
